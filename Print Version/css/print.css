@@ -1,0 +1,121 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font: 14pt Verdana;
+}
+
+header,
+.gallery .prev,
+.gallery .next,
+.line,
+.contact-form,
+.customers .icon,
+.tab-nav li:nth-of-type(2),
+.tab-nav li:nth-of-type(3) {
+    display: none;
+}
+
+.tab-content,
+.content,
+.about-articles article,
+.big-footer section {
+    width: 100%;
+}
+
+main:before {
+    content: "Ikaros - http://Icaros.com";
+    font-size: 18pt;
+    font-style: italic;
+
+}
+
+.gallery {
+    margin: 10px 0;
+}
+
+.services {
+    border-bottom: 1px solid #C5C5C5;
+    height: 800px;
+}
+
+.services h1 {
+    margin: 20px 0;
+    padding: 0;
+}
+
+.tab-nav,
+.tab-nav li,
+.big-footer {
+    border: none;
+}
+
+.content ul li {
+    list-style-image: none;
+}
+
+.tab-nav li:nth-of-type(1) {
+    width: auto;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.tab-content h2 {
+    font-size: 18pt;
+}
+
+.tab-content p,
+.tab-content ul {
+    font-size: 16pt;
+}
+
+img {
+    max-width: 100% !important;
+}
+
+ul, img {
+    page-break-inside: avoid;
+}
+
+.content,
+.latest-portfolio,
+.latest-blog{
+    margin: 0;
+}
+
+.latest-portfolio {
+    border-bottom: 1px solid #C5C5C5;
+    padding: 10px 0;
+}
+
+.latest-blog {
+    padding: 10px 0;
+    height: 660px;
+    border-bottom: 1px solid #C5C5C5;
+}
+
+.about-articles article {
+    font-size: 12pt;
+}
+
+.customers,
+.latest-portfolio {
+    page-break-before: always;
+}
+.customers{
+    padding: 0 20px;
+}
+a {
+    text-decoration: underline;
+}
+
+a[href^=http]:after {
+    content: " <" attr(href) "> ";
+}
+
+.big-footer section {
+    font-size: 18pt;
+}
+
+
